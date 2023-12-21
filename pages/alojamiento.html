@@ -3,20 +3,44 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/style.css">
     <title>Extreme world</title>
 </head>
 <body>
     <header>
-        <img src="../img/logo.jpg" alt="logo">
-        <nav>
-            <ul>
-                <li><a href="../index.html">Inicio</a></li>
-                <li><a href="./vuelos.html">Vuelos</a></li>
-                <li><a href="./alojamiento.html">Alojamiento</a></li>
-                <li><a href="./atracciones.html">Atracciones</a></li>
-                <li><a href="./misviajes.html">Mis viajes</a></li>
-            </ul>
+        <nav class="navbar navbar-expand-lg" style="background-color: rgb(3, 51, 105)">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#"><img src="../img/logo.jpg" alt="logo"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./pages/vuelos.html">Vuelos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./pages/alojamiento.html">Alojamientos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./pages/atracciones.html">Atracciones</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./pages/mis viajes.html">Mis viajes</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#nosotros">Sobre nosotros</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contactanos">Contactanos</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </nav>
     </header>
 <main>
@@ -31,9 +55,9 @@
             </div>
     </section>
     <section class="hoteles-alquiler">
-        <h2>Hotel intercontinental</h2>
-        <img id="hotel-internacional-img-" src="../img/hotel-intercontinental-img.jpg" alt="hotel internacional">
+        <img src="../img/hotel-intercontinental-img.jpg" alt="hotel internacional">
         <div id="hotel-intercontinental">
+            <h2>Hotel intercontinental</h2>
             <p>Hotel moderno, bien ubicado, el personal amable y profesional.</p>
             <p>$100.000
             por noche
@@ -41,9 +65,11 @@
             <label for="">Seleccionar hotel</label>
             <input type="radio">
         </div>
-        <h2>Hotel Sheralton</h2>
+    </section>
+    <section class="alquiler-sheralton">
         <img src="../img/hotel-sheraton.jpg" alt="hotel sheralton">
-        <div id="hotel-sheralton-a">
+        <div id="div-hotel-sheralton">
+            <h2>Hotel Sheralton</h2>
             <p>Un hotel es un establecimiento cuyo principal servicio es el hospedaje, ofreciendo a las personas cierto nivel de confort y seguridad durante sus estadías. Entre sus servicios complementarios más importantes, se encuentra: alimentación, limpieza, wifi, aparcamiento y zonas de entretenimiento.</p>
             <p>$140.000
             por noche
@@ -51,9 +77,11 @@
             <label for="">Seleccionar hotel</label>
             <input type="radio">
         </div>
-        <h2>Hotel Ibis</h2>
+    </section>
+    <section class="alquiler-ibis">
         <img src="../img/hotel-ibis-img.jpg" alt="hotel ibis">
         <div id="hotel-ibis">
+            <h2>Hotel Ibis</h2>
             <p>Te brinda el mejor servicio ,haciendote sentir como en casa.</p>
             <p>$90.000
             por noche
@@ -72,5 +100,6 @@
             <a href="https://twitter.com/?lang=es"target="_blank"><img src="../img/twitter.png" alt="Logo twitter"></a>
         </div>
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
 </body>
 </html>

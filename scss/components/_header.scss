@@ -1,0 +1,35 @@
+
+header{
+    position: sticky;
+    top: 0px;
+    z-index: 100;
+    background-color: rgb(3, 51, 105);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+
+    img{
+        width: 86px;
+        height: 86px;
+    }
+    nav{
+        width: 100%;
+
+        ul{
+            width: 100%;
+            display: flex;
+            justify-content: space-around;
+            list-style: none;
+
+            a{
+                text-decoration: none;
+                color: white;
+                margin: 5px;
+            }
+            a:hover{
+                color: rgb(0, 174, 255);
+            }
+        }
+    }
+}

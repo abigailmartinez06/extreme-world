@@ -1,0 +1,958 @@
+header {
+  position: sticky;
+  top: 0px;
+  z-index: 100;
+  background-color: rgb(3, 51, 105);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+header img {
+  width: 86px;
+  height: 86px;
+}
+header nav {
+  width: 100%;
+}
+header nav ul {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+}
+header nav ul a {
+  text-decoration: none;
+  color: white;
+  margin: 5px;
+}
+header nav ul a:hover {
+  color: rgb(0, 174, 255);
+}
+
+main section img {
+  width: 100%;
+  height: 80%;
+}
+main section h1 {
+  font-size: 60px;
+  font-family: "Times New Roman", Times, serif;
+  font-style: italic;
+  color: rgb(14, 13, 13);
+  position: relative;
+  left: 0px;
+  bottom: 900px;
+}
+main section h2 {
+  font-size: 25px;
+  font-family: "Times New Roman", Times, serif;
+  color: rgb(5, 5, 5);
+}
+main i {
+  padding: 28px;
+  border-radius: 50%;
+  position: fixed;
+  bottom: 145px;
+  right: 6px;
+  font-size: 70px;
+  color: rgb(16, 168, 238);
+  background-color: rgb(12, 65, 134) 0, 102, 255;
+}
+
+.principal h2 {
+  position: relative;
+  left: 0px;
+  bottom: 900px;
+}
+
+.hero {
+  text-align: center;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: normal;
+}
+.hero iframe {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.puerto-madryn {
+  display: grid;
+  grid-template-rows: 150px 150px 150px;
+  grid-template-columns: 200px 200px 50px 100px 100px 20px 100px 100px;
+  justify-content: center;
+}
+.puerto-madryn div {
+  background-color: white;
+  color: black;
+  min-width: 200px;
+  max-width: 500px;
+  height: 300px;
+  padding: 50px 30px;
+  margin-top: 40px;
+  border: 2px solid rgb(15, 15, 15);
+  grid-column: 1/3;
+}
+.puerto-madryn div a {
+  display: inline-block;
+  margin: 10px;
+  background-color: rgb(0, 119, 255);
+  color: white;
+  padding: 15px;
+  margin-inline-start: 99px;
+}
+.puerto-madryn div a:hover {
+  background-color: black;
+}
+.puerto-madryn h2 {
+  font-size: 25px;
+  font-family: "Times New Roman", Times, serif;
+  color: rgb(38, 38, 148);
+  text-align: left;
+}
+.puerto-madryn img {
+  width: 100%;
+  height: 150%;
+  border: black solid 1px;
+  margin-top: 38px;
+  margin-right: 50px;
+  display: block;
+}
+.puerto-madryn p {
+  text-align: left;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#ballenas {
+  grid-column: 7/9;
+  grid-row: 1/2;
+}
+
+#playa {
+  grid-column: 4/6;
+  grid-row: 1/2;
+}
+
+.misiones {
+  display: grid;
+  grid-template-rows: 150px 150px 120px;
+  grid-template-columns: 100px 100px 20px 100px 100px 50px 200px 200px;
+  justify-content: center;
+}
+.misiones div {
+  background-color: white;
+  color: black;
+  min-width: 200px;
+  max-width: 500px;
+  height: 411px;
+  padding: 50px 30px;
+  border: 2px solid rgb(15, 15, 15);
+  grid-column: 7/9;
+}
+.misiones div a {
+  display: inline-block;
+  margin: 10px;
+  background-color: rgb(0, 119, 255);
+  color: white;
+  padding: 15px;
+  margin-inline-start: 120px;
+}
+.misiones div a:hover {
+  background-color: black;
+}
+.misiones img {
+  width: 100%;
+  height: 150%;
+  border: black solid 2px;
+  display: block;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.misiones h2 {
+  font-size: 25px;
+  font-family: "Times New Roman", Times, serif;
+  color: rgb(38, 38, 148);
+  text-align: left;
+}
+.misiones p {
+  text-align: right;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#cataratas {
+  grid-column: 1/3;
+  grid-row: 1/2;
+}
+
+#ruinas {
+  grid-column: 4/6;
+  grid-row: 1/2;
+}
+
+.perito-moreno {
+  justify-content: center;
+  display: grid;
+  grid-template-rows: 200px 200px;
+  grid-template-columns: 200px 200px 50px 100px 100px 20px 100px 100px;
+}
+.perito-moreno div {
+  background-color: white;
+  color: black;
+  min-width: 350px;
+  max-width: 500px;
+  height: 295px;
+  padding: 50px 30px;
+  margin: 40px;
+  border: 2px solid rgb(15, 15, 15);
+  grid-column: 1/3;
+}
+.perito-moreno div a {
+  display: inline-block;
+  margin: 10px;
+  background-color: rgb(0, 119, 255);
+  color: white;
+  padding: 15px;
+  margin-inline-start: 78px;
+}
+.perito-moreno div a:hover {
+  background-color: black;
+}
+.perito-moreno img {
+  width: 100%;
+  height: 120%;
+  border: black solid 2px;
+  display: block;
+  margin-top: 40px;
+}
+.perito-moreno h2 {
+  font-size: 25px;
+  font-family: "Times New Roman", Times, serif;
+  color: rgb(38, 38, 148);
+  text-align: left;
+}
+.perito-moreno p {
+  text-align: left;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#glaciar {
+  grid-column: 7/9;
+  grid-row: 1/2;
+}
+
+#caminata-glaciar {
+  grid-column: 4/6;
+  grid-row: 1/2;
+}
+
+.mendoza {
+  display: grid;
+  grid-template-rows: 150px 150px;
+  grid-template-columns: 100px 100px 20px 100px 100px 50px 200px 200px;
+  justify-content: center;
+}
+.mendoza div {
+  background-color: white;
+  color: black;
+  min-width: 200px;
+  max-width: 500px;
+  height: 300px;
+  padding: 50px 30px;
+  margin-left: 40px;
+  border: 2px solid rgb(15, 15, 15);
+  grid-column: 7/9;
+}
+.mendoza div a {
+  display: inline-block;
+  margin: 10px;
+  background-color: rgb(0, 119, 255);
+  color: white;
+  padding: 15px;
+  margin-inline-start: 93px;
+}
+.mendoza div a:hover {
+  background-color: black;
+}
+.mendoza img {
+  width: 100%;
+  height: 150%;
+  border: black solid 2px;
+  margin-left: 50px;
+  margin-top: 2px;
+  display: block;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.mendoza h2 {
+  font-size: 25px;
+  font-family: "Times New Roman", Times, serif;
+  color: rgb(38, 38, 148);
+  text-align: left;
+}
+.mendoza p {
+  text-align: right;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#lago-mendoza {
+  grid-column: 1/3;
+  grid-row: 1/2;
+}
+
+.galeria {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 250px 250px;
+  width: 100%;
+  margin-top: 50px;
+  gap: 2px;
+}
+
+#nosotros {
+  margin-left: 20px;
+}
+#nosotros a {
+  width: 100%;
+  height: 125%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+#nosotros h2 {
+  font-size: 25px;
+  font-family: "Times New Roman", Times, serif;
+  color: rgb(38, 38, 148);
+  text-decoration: none;
+  text-align: left;
+}
+#nosotros p {
+  text-decoration: none;
+  text-align: left;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+  text-align: left;
+}
+#nosotros h3 {
+  text-decoration: none;
+  font-size: 20px;
+  font-family: "Times New Roman", Times, serif;
+  color: rgb(38, 38, 148);
+  text-align: left;
+}
+
+#contactanos h2 {
+  font-size: 25px;
+  font-family: "Times New Roman", Times, serif;
+  color: rgb(38, 38, 148);
+  text-decoration: none;
+  text-align: left;
+}
+#contactanos p {
+  text-decoration: none;
+  text-align: left;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+  text-align: left;
+}
+
+.wrap {
+  width: 100vw;
+  height: 100vw;
+  display: flex;
+  align-items: end;
+  justify-content: center;
+  background-image: url(../img/avion-img.webp);
+  background-size: cover;
+  background-position: center;
+}
+
+.vuelos-en-avion {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#vuelos-misiones {
+  display: inline block;
+  background-color: white;
+  color: black;
+  min-width: 200px;
+  max-width: 400px;
+  height: 500px;
+  padding: 50px 30px;
+  margin: 40px;
+  border: 2px solid rgb(15, 15, 15);
+}
+
+#vuelo-bariloche {
+  display: inline-block;
+  background-color: white;
+  color: black;
+  min-width: 200px;
+  max-width: 400px;
+  height: 500px;
+  padding: 50px 30px;
+  margin: 40px;
+  border: 2px solid rgb(15, 15, 15);
+}
+
+#vuelo-ushuaia {
+  display: inline-block;
+  background-color: white;
+  color: black;
+  min-width: 200px;
+  max-width: 400px;
+  height: 500px;
+  padding: 50px 30px;
+  margin: 40px;
+  border: 2px solid rgb(15, 15, 15);
+}
+
+.hoteles-alquiler {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.hoteles-alquiler h2 {
+  margin-top: 15px;
+}
+.hoteles-alquiler img {
+  width: 350px;
+  height: 250px;
+  margin: 25px;
+}
+.hoteles-alquiler div {
+  background-color: white;
+  color: black;
+  min-width: 800px;
+  max-width: 400px;
+  height: 150px;
+  padding: 50px 30px;
+  margin-top: 40px;
+  border: 2px solid rgb(15, 15, 15);
+}
+
+#hotel-intercontinental {
+  background-color: white;
+  color: black;
+  min-width: 200px;
+  max-width: 800px;
+  height: 250px;
+  width: 800px;
+  padding: 50px 30px;
+  border: 2px solid black;
+}
+
+.alquiler-sheralton {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-left: 2%;
+  margin-bottom: 3%;
+  margin-top: 3%;
+}
+.alquiler-sheralton img {
+  width: 26%;
+  height: 26%;
+}
+
+#div-hotel-sheralton {
+  background-color: white;
+  color: black;
+  min-width: 200px;
+  max-width: 800px;
+  height: 250px;
+  width: 800px;
+  padding: 50px 30px;
+  border: 2px solid black;
+  margin-left: 2%;
+}
+
+.alquiler-ibis {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-left: 2%;
+  margin-bottom: 3%;
+  margin-top: 3%;
+}
+.alquiler-ibis img {
+  width: 26%;
+  height: 26%;
+}
+
+#hotel-ibis {
+  background-color: white;
+  color: black;
+  min-width: 200px;
+  max-width: 800px;
+  height: 250px;
+  width: 800px;
+  padding: 50px 30px;
+  border: 2px solid black;
+  margin-left: 2%;
+}
+
+#info-escalar {
+  display: inline-block;
+  background-color: white;
+  color: black;
+  min-width: 200px;
+  max-width: 980px;
+  height: 210px;
+  width: 980px;
+  padding: 50px 30px;
+  margin: 40px;
+  border: 2px solid rgb(15, 15, 15);
+}
+
+#info-esqui {
+  display: inline-block;
+  background-color: white;
+  color: black;
+  min-width: 200px;
+  max-width: 980px;
+  height: 210px;
+  width: 980px;
+  padding: 50px 30px;
+  margin: 40px;
+  border: 2px solid rgb(15, 15, 15);
+}
+
+#info-rafting {
+  display: inline-block;
+  background-color: white;
+  color: black;
+  min-width: 200px;
+  max-width: 980px;
+  height: 210px;
+  width: 980px;
+  padding: 50px 30px;
+  margin: 40px;
+  border: 2px solid rgb(15, 15, 15);
+}
+
+.seleccion-mis-viajes {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#aerolinea {
+  display: inline-block;
+  background-color: white;
+  color: black;
+  min-width: 200px;
+  max-width: 400px;
+  height: 330px;
+  width: 320px;
+  padding: 50px 30px;
+  margin: 40px;
+  border: 2px solid rgb(15, 15, 15);
+}
+
+#hotel-mis-viajes {
+  display: inline-block;
+  background-color: white;
+  color: black;
+  min-width: 200px;
+  max-width: 400px;
+  height: 330px;
+  padding: 50px 30px;
+  margin: 40px;
+  border: 2px solid rgb(15, 15, 15);
+}
+
+#actividad {
+  display: inline-block;
+  background-color: white;
+  color: black;
+  min-width: 200px;
+  max-width: 450px;
+  height: 330px;
+  width: 300px;
+  padding: 50px 30px;
+  margin: 40px;
+  border: 2px solid rgb(15, 15, 15);
+}
+
+.total p {
+  display: inline-block;
+  background-color: white;
+  color: black;
+  min-width: 130px;
+  max-width: 180px;
+  height: 2px;
+  padding: 50px 30px;
+  margin: 40px;
+  border: 2px solid rgb(15, 15, 15);
+  text-align: center;
+}
+.total a {
+  display: inline-block;
+  margin: 10px;
+  background-color: rgb(0, 119, 255);
+  color: white;
+  padding: 15px;
+  margin-inline-start: 176px;
+  text-decoration: none;
+}
+
+.escalar h2 {
+  margin-left: 10px;
+  margin-top: 40px;
+  margin-bottom: 10px;
+}
+.escalar p {
+  margin-left: 28px;
+  margin-right: 3px;
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
+
+.esquiar h2 {
+  margin-left: 10px;
+  margin-top: 40px;
+  margin-bottom: 10px;
+}
+.esquiar p {
+  margin-left: 28px;
+  margin-right: 3px;
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
+
+.rafting h2 {
+  margin-left: 10px;
+  margin-top: 40px;
+  margin-bottom: 10px;
+}
+.rafting p {
+  margin-left: 28px;
+  margin-right: 3px;
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
+
+footer {
+  background-color: rgb(3, 51, 105);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+footer img {
+  width: 15%;
+  height: 15%;
+}
+footer div {
+  margin: 20px;
+}
+footer div a img {
+  width: 45px;
+  height: 45px;
+}
+
+/* ------ MEDIA QUERY-----*/
+@media screen and (max-width: 1075px) {
+  main section img {
+    width: 100%;
+    height: 80%;
+  }
+}
+@media screen and (max-width: 820px) {
+  .galeria {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  #img-cuatro {
+    display: none;
+  }
+  #img-cinco {
+    display: none;
+  }
+  #img-seis {
+    display: none;
+  }
+  .hero iframe {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    width: 400px;
+    height: 300px;
+  }
+  main section h1 {
+    bottom: 800px;
+  }
+  .hero p {
+    margin-top: 2px;
+  }
+  .puerto-madryn {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .puerto-madryn div {
+    width: 300px;
+    height: 350px;
+  }
+  #playa {
+    display: none;
+  }
+  .puerto-madryn img {
+    width: 50%;
+    height: 30%;
+    margin-right: 12px;
+  }
+  .misiones {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .misiones div {
+    margin-top: 27px;
+    width: 320px;
+    height: 500px;
+  }
+  #ruinas {
+    display: none;
+  }
+  #cataratas {
+    margin-top: 20px;
+    width: 60%;
+    height: 60%;
+  }
+  .perito-moreno {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .perito-moreno div {
+    width: 315px;
+    height: 300px;
+  }
+  #caminata-glaciar {
+    display: none;
+  }
+  #glaciar {
+    margin-top: 7px;
+    width: 300px;
+    height: 300px;
+  }
+  .mendoza {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .mendoza div {
+    margin-top: 20px;
+    width: 335px;
+    height: 325px;
+  }
+  #lago-mendoza {
+    display: none;
+  }
+  #punte-inca {
+    margin-top: 7px;
+    width: 300px;
+    height: 250px;
+  }
+  #nosotros iframe {
+    width: 350px;
+    height: 200px;
+  }
+}
+@media screen and (max-width: 360px) {
+  .hero iframe {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 1039px) {
+  .vuelos-en-avion {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+@media screen and (max-width: 1204px) {
+  .hoteles-alquiler {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .hoteles-alquiler img {
+    width: 50%;
+    height: 50%;
+  }
+  .alquiler-sheralton {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .alquiler-sheralton img {
+    width: 50%;
+    height: 50%;
+  }
+  .alquiler-ibis {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .alquiler-ibis img {
+    width: 50%;
+    height: 50%;
+  }
+}
+@media screen and (max-width: 857px) {
+  #hotel-intercontinental {
+    width: 50%;
+  }
+  #div-hotel-sheralton {
+    width: 50%;
+    height: 50%;
+    margin-top: 10%;
+    margin-bottom: 1%;
+  }
+  #hotel-ibis {
+    width: 50%;
+    height: 20%;
+    margin-top: 10%;
+    margin-bottom: 1%;
+  }
+}
+@media screen and (max-width: 583px) {
+  #hotel-intercontinental {
+    height: 20%;
+  }
+}
+@media screen and (max-width: 987px) {
+  #info-escalar {
+    min-width: 200px;
+    max-width: 800px;
+    height: 200px;
+    width: 800px;
+  }
+}
+@media screen and (max-width: 849px) {
+  #info-escalar {
+    min-width: 200px;
+    max-width: 800px;
+    height: 230px;
+    width: 700px;
+  }
+}
+@media screen and (max-width: 751px) {
+  #info-escalar {
+    min-width: 200px;
+    max-width: 800px;
+    height: 280px;
+    width: 550px;
+  }
+}
+@media screen and (max-width: 500px) {
+  #info-escalar {
+    min-width: 200px;
+    max-width: 335px;
+    height: 310px;
+  }
+}
+@media screen and (max-width: 987px) {
+  #info-esqui {
+    min-width: 200px;
+    max-width: 800px;
+    height: 200px;
+    width: 800px;
+  }
+}
+@media screen and (max-width: 849px) {
+  #info-esqui {
+    min-width: 200px;
+    max-width: 800px;
+    height: 230px;
+    width: 700px;
+  }
+}
+@media screen and (max-width: 751px) {
+  #info-esqui {
+    min-width: 200px;
+    max-width: 800px;
+    height: 280px;
+    width: 550px;
+  }
+}
+@media screen and (max-width: 500px) {
+  #info-esqui {
+    min-width: 200px;
+    max-width: 335px;
+    height: 310px;
+  }
+}
+@media screen and (max-width: 987px) {
+  #info-rafting {
+    min-width: 200px;
+    max-width: 800px;
+    height: 200px;
+    width: 800px;
+  }
+}
+@media screen and (max-width: 849px) {
+  #info-rafting {
+    min-width: 200px;
+    max-width: 800px;
+    height: 230px;
+    width: 700px;
+  }
+}
+@media screen and (max-width: 751px) {
+  #info-rafting {
+    min-width: 200px;
+    max-width: 800px;
+    height: 280px;
+    width: 550px;
+  }
+}
+@media screen and (max-width: 500px) {
+  #info-rafting {
+    min-width: 200px;
+    max-width: 335px;
+    height: 318px;
+  }
+}
+@media screen and (max-width: 969px) {
+  .seleccion-mis-viajes {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+@media screen and (max-width: 559px) {
+  .total a {
+    flex-direction: row;
+    justify-content: flex-start;
+  }
+}/*# sourceMappingURL=estilos.css.map */

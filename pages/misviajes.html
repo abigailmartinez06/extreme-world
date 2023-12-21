@@ -3,20 +3,44 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/style.css">
     <title>Extreme world</title>
 </head>
 <body>
     <header>
-        <img src="../img/logo.jpg" alt="logo">
-        <nav>
-            <ul>
-                <li><a href="../index.html">Inicio</a></li>
-                <li><a href="./vuelos.html">Vuelos</a></li>
-                <li><a href="./alojamiento.html">Alojamiento</a></li>
-                <li><a href="./atracciones.html">Atracciones</a></li>
-                <li><a href="./misviajes.html">Mis viajes</a></li>
-            </ul>
+        <nav class="navbar navbar-expand-lg" style="background-color: rgb(3, 51, 105)">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#"><img src="../img/logo.jpg" alt="logo"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./pages/vuelos.html">Vuelos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./pages/alojamiento.html">Alojamientos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./pages/atracciones.html">Atracciones</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./pages/mis viajes.html">Mis viajes</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#nosotros">Sobre nosotros</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contactanos">Contactanos</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </nav>
     </header>
     <main>
@@ -24,20 +48,22 @@
             <img src="../img/mis-viajes-img.avif" alt="mis viajes">
             <h1>Mis viajes</h1>
         </section>
-        <section class="aerolinea">
-            <img src="../img/aerolineas-arg-img.webp" alt="aerolineas-argentinas">
-            <h2>Aerolineas Argentinas</h2>
-            <p>$50.000</p>
-        </section>
-        <section class="hotel-mis-viajes">
-            <img src="../img/hotel-ibis-img.jpg" alt="hotel ibis">
-        <h2>Hotel Ibis</h2>
-        <p>$90.000</p>
-        </section>
-        <section class="actividad">
-            <img src="../img/rafting-img.avif" alt="rafting">
-            <h2>Rafting</h2>
-            <p>$54.000</p>
+        <section class="seleccion-mis-viajes">
+            <div id="aerolinea">
+                <img src="../img/aerolineas-arg-img.webp" alt="aerolineas-argentinas">
+                <h2>Aerolineas Argentinas</h2>
+                <p>$50.000</p>
+            </div>
+            <div id="hotel-mis-viajes">
+                <img src="../img/hotel-ibis-img.jpg" alt="hotel ibis">
+                <h2>Hotel Ibis</h2>
+                <p>$90.000</p>
+            </div>
+            <div id="actividad">
+                <img src="../img/rafting-img.avif" alt="rafting">
+                <h2>Rafting</h2>
+                <p>$54.000</p>
+            </div>
         </section>
         <section class="total">
             <p>TOTAL:$194.000</p>
@@ -53,6 +79,7 @@
             <a href="https://twitter.com/?lang=es"target="_blank"><img src="../img/twitter.png" alt="Logo twitter"></a>
         </div>
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
 <body>
 </body>
 </html>

@@ -1,0 +1,636 @@
+
+main{
+    section{
+        img{
+            width: 100%;
+            height: 80%;
+        }
+        h1{
+            font-size: nth($font-size, 3);
+            font-family:'Times New Roman', Times, serif;
+            font-style: italic;
+            color: rgb(14, 13, 13);
+            position: relative;
+            left: 0px;
+            bottom: 900px;
+        }
+        h2{
+            font-size: nth($font-size, 2);
+            font-family:'Times New Roman', Times, serif;
+            color: rgb(5, 5, 5);
+        }
+    }
+    i{
+        padding: 28px;
+        border-radius: 50%;
+        position: fixed;
+        bottom: 145px;
+        right: 6px;
+        font-size: nth($font-size, 4);
+        color: rgb(16, 168, 238);
+        background-color: rgb(12, 65, 134)0, 102, 255;
+    }
+}
+
+.principal{
+    h2{
+        position: relative;
+        left: 0px;
+        bottom: 900px;
+    }
+}
+
+.hero{
+    text-align: center;
+    font-size: nth($font-size, 1);
+    font-family:Arial, Helvetica, sans-serif;
+    font-style:normal;
+
+    iframe{
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+}
+
+.puerto-madryn{
+    display: grid;
+    grid-template-rows: 150px 150px 150px;
+    grid-template-columns: 200px 200px 50px 100px 100px 20px 100px 100px;
+    justify-content: center;
+    div{
+        background-color: white;
+        color: $color-texto;
+        min-width: 200px;
+        max-width: 500px;
+        height: 300px;
+        padding: 50px 30px;
+        margin-top: 40px;
+        border: 2px solid rgb(15, 15, 15);
+        grid-column: 1/3;
+        a{
+            display: inline-block;
+            margin: 10px;
+            background-color: rgb(0, 119, 255);
+            color:white;
+            padding: 15px;
+            margin-inline-start: 99px;
+        }
+        a:hover{
+            background-color: black;
+        }
+    }
+    h2{
+        font-size: nth($font-size, 2);
+        font-family:'Times New Roman', Times, serif;
+        color:rgb(38, 38, 148);
+        text-align: left;
+    }
+    img{
+        width: 100%;
+        height: 150%;
+        border: black solid 1px;
+        margin-top: 38px;
+        margin-right: 50px;
+        display: block;
+    }
+    p{
+        text-align: left;
+        font-size: nth($font-size, 1);
+        font-family: Arial, Helvetica, sans-serif;
+    }
+}
+
+#ballenas{
+    grid-column: 7/9;
+    grid-row: 1/2;
+}
+
+#playa{
+    grid-column: 4/6;
+    grid-row: 1/2;
+}
+
+.misiones{
+    display: grid;
+    grid-template-rows: 150px 150px 120px;
+    grid-template-columns: 100px 100px 20px 100px 100px 50px 200px 200px;
+    justify-content: center;
+    div{
+        background-color: white;
+        color: $color-texto;
+        min-width: 200px;
+        max-width: 500px;
+        height: 411px;
+        padding: 50px 30px;
+        border: 2px solid rgb(15, 15, 15);
+        grid-column: 7/9;
+        a{
+            display: inline-block;
+            margin: 10px;
+            background-color: rgb(0, 119, 255);
+            color:white;
+            padding: 15px;
+            margin-inline-start: 120px;
+        }
+        a:hover{
+            background-color: black;
+        }
+    }
+    img{
+        width: 100%;
+        height: 150%;
+        border: black solid 2px;
+        display: block;
+        object-fit: cover;
+    }
+    h2{
+        font-size: nth($font-size, 2);
+        font-family:'Times New Roman', Times, serif;
+        color: rgb(38, 38, 148);
+        text-align:left;
+    }
+    p{
+        text-align:right;
+        font-size: nth($font-size, 1);
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+}
+
+#cataratas{
+    grid-column: 1/3;
+    grid-row: 1/2;
+}
+
+#ruinas{
+    grid-column: 4/6;
+    grid-row: 1/2;
+}
+
+.perito-moreno{
+    justify-content: center;
+    display: grid;
+    grid-template-rows: 200px 200px;
+    grid-template-columns: 200px 200px 50px 100px 100px 20px 100px 100px;
+    div{
+        background-color: white;
+        color: $color-texto;
+        min-width: 350px;
+        max-width: 500px;
+        height: 295px;
+        padding: 50px 30px;
+        margin: 40px;
+        border: 2px solid rgb(15, 15, 15);
+        grid-column: 1/3;
+        a{
+            display: inline-block;
+            margin: 10px;
+            background-color: rgb(0, 119, 255);
+            color:white;
+            padding: 15px;
+            margin-inline-start: 78px;
+        }
+        a:hover{
+            background-color: black;
+        }
+    }
+    img{
+        width: 100%;
+        height: 120%;
+        border: black solid 2px;
+        display: block;
+        margin-top: 40px;
+    }
+    h2{
+        font-size: nth($font-size, 2);
+        font-family:'Times New Roman', Times, serif;
+        color: rgb(38, 38, 148);
+        text-align: left;
+    }
+    p{
+        text-align: left;
+        font-size: nth($font-size, 1);
+        font-family: Arial, Helvetica, sans-serif;
+    }
+}
+#glaciar{
+    grid-column: 7/9;
+    grid-row: 1/2;
+}
+#caminata-glaciar{
+    grid-column: 4/6;
+    grid-row: 1/2;
+}
+.mendoza{
+    display: grid;
+    grid-template-rows: 150px 150px;
+    grid-template-columns: 100px 100px 20px 100px 100px 50px 200px 200px;
+    justify-content: center;
+    div{
+        background-color: white;
+        color: $color-texto;
+        min-width: 200px;
+        max-width: 500px;
+        height: 300px;
+        padding: 50px 30px;
+        margin-left: 40px;
+        border: 2px solid rgb(15, 15, 15);
+        grid-column: 7/9;
+
+        a{
+            display: inline-block;
+            margin: 10px;
+            background-color: rgb(0, 119, 255);
+            color:white;
+            padding: 15px;
+            margin-inline-start: 93px;
+        }
+        a:hover{
+            background-color: black;
+        }
+    }
+    img{
+        width: 100%;
+        height: 150%;
+        border: black solid 2px;
+        margin-left: 50px;
+        margin-top: 2px;
+        display: block;
+        object-fit: cover;
+    }
+    h2{
+        font-size: nth($font-size, 2);
+        font-family:'Times New Roman', Times, serif;
+        color: rgb(38, 38, 148);
+        text-align:left;
+    }
+    p{
+        text-align:right;
+        font-size: nth($font-size, 1);
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+}
+
+#lago-mendoza{
+    grid-column: 1/3;
+    grid-row: 1/2;
+}
+
+.galeria{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 250px 250px;
+    width: 100%;
+    margin-top: 50px;
+    gap: 2px;
+}
+
+#nosotros{
+    margin-left: 20px;
+    a{
+        width: 100%;
+        height: 125%;
+        object-fit: cover;
+    }
+    h2{
+        font-size: nth($font-size, 2);
+        font-family:'Times New Roman', Times, serif;
+        color: rgb(38, 38, 148);
+        text-decoration: none;
+        text-align: left;
+    }
+    p{
+        text-decoration: none;
+        text-align: left;
+        font-size: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+        color: $color-texto;
+        text-align: left;
+    }
+    h3{
+        text-decoration: none;
+        font-size: nth($font-size, 1);
+        font-family:'Times New Roman', Times, serif;
+        color: rgb(38, 38, 148);
+        text-align: left;
+    }
+}
+
+#contactanos{
+    h2{
+        font-size: nth($font-size, 2);
+        font-family:'Times New Roman', Times, serif;
+        color: rgb(38, 38, 148);
+        text-decoration: none;
+        text-align: left;
+    }
+    p{
+        text-decoration: none;
+        text-align: left;
+        font-size: nth($font-size, 1);
+        font-family: Arial, Helvetica, sans-serif;
+        color: $color-texto;
+        text-align: left;
+    }
+}
+
+.wrap{
+    width: 100vw;
+    height: 100vw;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    background-image: url(../img/avion-img.webp);
+    background-size: cover;
+    background-position: center;
+}
+
+.vuelos-en-avion{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#vuelos-misiones{
+    display: inline block;
+    background-color: white;
+    color: $color-texto;
+    min-width: 200px;
+    max-width: 400px;
+    height: 500px;
+    padding: 50px 30px;
+    margin: 40px;
+    border: 2px solid rgb(15, 15, 15);
+}
+
+#vuelo-bariloche{
+    display: inline-block;
+    background-color: white;
+    color: black;
+    min-width: 200px;
+    max-width: 400px;
+    height: 500px;
+    padding: 50px 30px;
+    margin: 40px;
+    border: 2px solid rgb(15, 15, 15);
+}
+
+
+#vuelo-ushuaia{
+    display: inline-block;
+    background-color: white;
+    color: $color-texto;
+    min-width: 200px;
+    max-width: 400px;
+    height: 500px;
+    padding: 50px 30px;
+    margin: 40px;
+    border: 2px solid rgb(15, 15, 15);
+}
+
+.hoteles-alquiler{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    h2{
+        margin-top: 15px;
+    }
+    img{
+        width: 350px;
+        height: 250px;
+        margin: 25px;
+    }
+    div{
+        background-color: white;
+        color: $color-texto;
+        min-width: 800px;
+        max-width: 400px;
+        height: 150px;
+        padding: 50px 30px;
+        margin-top: 40px;
+        border: 2px solid rgb(15, 15, 15);
+    }
+}
+
+
+
+#hotel-intercontinental{
+    background-color: white;
+    color: $color-texto;
+    min-width: 200px;
+    max-width: 800px;
+    height: 250px;
+    width: 800px;
+    padding: 50px 30px;
+    border: 2px solid black;
+}
+
+.alquiler-sheralton{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-left: 2%;
+    margin-bottom: 3%;
+    margin-top: 3%;
+    img{
+        width: 26%;
+        height: 26%;
+    }
+}
+
+
+#div-hotel-sheralton{
+    background-color: white;
+    color: $color-texto;
+    min-width: 200px;
+    max-width: 800px;
+    height: 250px;
+    width: 800px;
+    padding: 50px 30px;
+    border: 2px solid black;
+    margin-left: 2%;
+}
+
+.alquiler-ibis{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-left: 2%;
+    margin-bottom: 3%;
+    margin-top: 3%;
+    img{
+        width: 26%;
+        height: 26%;
+    }
+}
+
+#hotel-ibis{
+    background-color: white;
+    color: $color-texto;
+    min-width: 200px;
+    max-width: 800px;
+    height: 250px;
+    width: 800px;
+    padding: 50px 30px;
+    border: 2px solid black;
+    margin-left: 2%;
+}
+
+
+#info-escalar{
+    display: inline-block;
+    background-color: white;
+    color: $color-texto;
+    min-width: 200px;
+    max-width: 980px;
+    height: 210px;
+    width: 980px;
+    padding: 50px 30px;
+    margin: 40px;
+    border: 2px solid rgb(15, 15, 15);
+}
+
+#info-esqui{
+    display: inline-block;
+    background-color: white;
+    color: $color-texto;
+    min-width: 200px;
+    max-width: 980px;
+    height: 210px;
+    width: 980px;
+    padding: 50px 30px;
+    margin: 40px;
+    border: 2px solid rgb(15, 15, 15);
+}
+
+#info-rafting{
+    display: inline-block;
+    background-color: white;
+    color: $color-texto;
+    min-width: 200px;
+    max-width: 980px;
+    height: 210px;
+    width: 980px;
+    padding: 50px 30px;
+    margin: 40px;
+    border: 2px solid rgb(15, 15, 15);
+}
+
+.seleccion-mis-viajes{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#aerolinea{
+    display: inline-block;
+    background-color: white;
+    color: $color-texto;
+    min-width: 200px;
+    max-width: 400px;
+    height: 330px;
+    width: 320px;
+    padding: 50px 30px;
+    margin: 40px;
+    border: 2px solid rgb(15, 15, 15);
+}
+
+#hotel-mis-viajes{
+    display: inline-block;
+    background-color: white;
+    color: $color-texto;
+    min-width: 200px;
+    max-width: 400px;
+    height: 330px;
+    padding: 50px 30px;
+    margin: 40px;
+    border: 2px solid rgb(15, 15, 15);
+}
+
+#actividad{
+    display: inline-block;
+    background-color: white;
+    color: $color-texto;
+    min-width: 200px;
+    max-width: 450px;
+    height: 330px;
+    width: 300px;
+    padding: 50px 30px;
+    margin: 40px;
+    border: 2px solid rgb(15, 15, 15);
+}
+.total{
+    p{
+        display: inline-block;
+        background-color: white;
+        color: $color-texto;
+        min-width: 130px;
+        max-width: 180px;
+        height: 2px;
+        padding: 50px 30px;
+        margin: 40px;
+        border: 2px solid rgb(15, 15, 15);
+        text-align: center;
+    }
+    a{
+        display: inline-block;
+        margin: 10px;
+        background-color: rgb(0, 119, 255);
+        color:white;
+        padding: 15px;
+        margin-inline-start: 176px;
+        text-decoration: none;
+    }
+}
+
+.escalar{
+    h2{
+        margin-left: 10px;
+        margin-top: 40px;
+        margin-bottom: 10px;
+    }
+    p{
+        margin-left: 28px;
+        margin-right: 3px;
+        margin-top: 15px;
+        margin-bottom: 10px;
+    }
+}
+.esquiar{
+    h2{
+        margin-left: 10px;
+        margin-top: 40px;
+        margin-bottom: 10px;
+    }
+    p{
+        margin-left: 28px;
+        margin-right: 3px;
+        margin-top: 15px;
+        margin-bottom: 10px;
+    }
+}
+
+.rafting{
+    h2{
+        margin-left: 10px;
+        margin-top: 40px;
+        margin-bottom: 10px;
+    }
+    p{
+        margin-left: 28px;
+        margin-right: 3px;
+        margin-top: 15px;
+        margin-bottom: 10px;
+    }
+}
