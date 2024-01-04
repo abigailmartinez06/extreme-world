@@ -3,3 +3,21 @@ $color-texto: black;
 
 //! Listas
 $font-size: 20px, 25px, 60px, 70px;
+
+//! extends
+%botones-azules{
+    display: inline-block;
+    margin: 10px;
+    background-color: rgb(0, 119, 255);
+    color: white;
+    padding: 15px;
+}
+
+//! mixins
+@mixin flex ($flex, $direction, $wrap, $justify, $align){
+    display: $flex;
+    flex-direction: $direction;
+    flex-wrap: $wrap;
+    justify-content: $justify;
+    align-items: $align;
+}
